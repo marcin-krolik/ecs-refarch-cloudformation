@@ -1,6 +1,5 @@
 Description: >
-    This template deploys an ECS cluster to the provided VPC and subnets
-    using an Auto Scaling Group
+    This template deploys an ECS cluster to the provided VPC and subnets using an Auto Scaling Group
 
 Parameters:
 
@@ -16,7 +15,7 @@ Parameters:
     ClusterSize:
         Description: How many ECS hosts do you want to initially deploy?
         Type: Number
-        Default: 4
+        Default: 2
 
     VPC:
         Description: Choose which VPC this ECS cluster should be deployed to

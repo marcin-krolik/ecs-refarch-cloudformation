@@ -1,6 +1,6 @@
 Description: >
-    This template deploys an Application Load Balancer that exposes our various ECS services.
-    We create them it a seperate nested template, so it can be referenced by all of the other nested templates.
+    This template deploys an Application Load Balancer that exposes ECS keying service.
+    We create it in a separate nested template, so it can be referenced by all of the other nested templates.
 
 Parameters:
 
